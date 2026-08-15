@@ -54,6 +54,28 @@ Traditional Infrastructure
 Cloud / DevOps Engineering
 ```
 
+
+# 🧭 Explore the Journey
+
+| Area | What you will find |
+|---|---|
+| [🐧 Linux](./01-linux/) | Commands, Bash scripting and troubleshooting |
+| [🔀 Git & GitHub](./02-git-github/) | Git basics, branching and engineering workflows |
+| [☁️ Azure](./03-azure/) | Compute, storage, networking, Bastion and monitoring |
+| [🔐 Identity & Security](./04-identity-security/) | Entra ID, RBAC, managed identities and Key Vault |
+| [🏗️ Terraform](./05-terraform/) | IaC fundamentals, variables, loops, modules and remote state |
+| [🏛️ Azure Landing Zone](./06-azure-landing-zone/) | Architecture, governance, policies and management groups |
+| [🔁 CI/CD](./07-ci-cd/) | Azure DevOps, GitHub Actions and Terraform pipelines |
+| [🐳 Docker](./08-docker/) | Images, containers and Compose |
+| [☸️ Kubernetes](./09-kubernetes/) | Pods, deployments, services, ingress and Helm |
+| [⚙️ Ansible](./10-ansible/) | Configuration management and automation |
+| [📈 Monitoring](./11-monitoring/) | Observability, metrics, logs and incident response |
+| [🛡️ DevSecOps](./12-devsecops/) | Security throughout the software delivery lifecycle |
+| [💰 FinOps](./13-finops/) | Cost visibility, optimization and governance |
+| [🚀 Projects](./14-projects/) | Hands-on projects and portfolio work |
+
+> **Portfolio principle:** learn the concept, build the lab, break it, troubleshoot it, automate it, document it.
+
 ---
 
 ## 🎯 My DevOps Philosophy

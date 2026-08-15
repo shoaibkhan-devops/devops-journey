@@ -1,1 +1,27 @@
-# basics
+# 🧱 Terraform Basics
+
+## Minimal project
+
+```hcl
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 4.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "demo" {
+  name     = "rg-devops-demo"
+  location = "Central India"
+}
+```
+
+## Key ideas
+
+Terraform compares desired configuration with the current state and the real infrastructure, then proposes the minimum set of changes needed to converge the environment.
