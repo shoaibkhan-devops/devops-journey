@@ -1,12 +1,15 @@
 # 🚀 DevOps Journey | Infrastructure → Cloud → Automation
 
-<p align="center">
+<div align="center">
 
-<a href="03-azure/"><img src="https://img.shields.io/badge/Azure-Cloud%20Engineering-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="badge"></a> <a href="05-terraform/"><img src="https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="badge"></a>
+<a href="03-azure/"><img src="https://img.shields.io/badge/Azure-Cloud%20Engineering-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"></a>
+<a href="05-terraform/"><img src="https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"></a>
 
-<a href="01-linux/"><img src="https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="badge"></a> <a href="02-git-github/"><img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="badge"></a> <a href="07-ci-cd/"><img src="https://img.shields.io/badge/DevOps-Automation-326CE5?style=for-the-badge&logo=azuredevops&logoColor=white" alt="badge"></a>
+<a href="01-linux/"><img src="https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"></a>
+<a href="02-git-github/"><img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+<a href="07-ci-cd/"><img src="https://img.shields.io/badge/DevOps-Automation-326CE5?style=for-the-badge&logo=azuredevops&logoColor=white" alt="DevOps"></a>
 
-</p>
+</div>
 
 <p align="center">
   <b>20+ Years of IT Infrastructure & Operations → Cloud → IaC → Automation → DevOps</b>
