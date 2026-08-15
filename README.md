@@ -1,11 +1,13 @@
 # 🚀 DevOps Journey | Infrastructure → Cloud → Automation
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Azure-Cloud%20Engineering-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevOps-Automation-326CE5?style=for-the-badge&logo=azuredevops&logoColor=white" />
+
+[<img src="https://img.shields.io/badge/Azure-Cloud%20Engineering-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />](03-azure/)
+[<img src="https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />](05-terraform/)
+[<img src="https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" />](01-linux/)
+[<img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" />](02-git-github/)
+[<img src="https://img.shields.io/badge/DevOps-Automation-326CE5?style=for-the-badge&logo=azuredevops&logoColor=white" />](07-ci-cd/)
+
 </p>
 
 <p align="center">
@@ -20,7 +22,7 @@ Welcome to my **DevOps & Cloud Engineering journey**.
 
 I come from an enterprise **IT Infrastructure & Operations** background with 20 years of experience across infrastructure management, cloud operations, virtualization, networking, identity, cybersecurity, backup, disaster recovery, IT service delivery and vendor management.
 
-My DevOps journey is about bringing that infrastructure experience into modern engineering practices:
+My DevOps journey is about bringing that infrastructure experience into the world of:
 
 > **Cloud + Automation + Infrastructure as Code + CI/CD + Containers + Security + Observability**
 
@@ -54,49 +56,44 @@ Traditional Infrastructure
 Cloud / DevOps Engineering
 ```
 
-
-# 🧭 Explore the Journey
-
-| Area | What you will find |
-|---|---|
-| [🐧 Linux](./01-linux/) | Commands, Bash scripting and troubleshooting |
-| [🔀 Git & GitHub](./02-git-github/) | Git basics, branching and engineering workflows |
-| [☁️ Azure](./03-azure/) | Compute, storage, networking, Bastion and monitoring |
-| [🔐 Identity & Security](./04-identity-security/) | Entra ID, RBAC, managed identities and Key Vault |
-| [🏗️ Terraform](./05-terraform/) | IaC fundamentals, variables, loops, modules and remote state |
-| [🏛️ Azure Landing Zone](./06-azure-landing-zone/) | Architecture, governance, policies and management groups |
-| [🔁 CI/CD](./07-ci-cd/) | Azure DevOps, GitHub Actions and Terraform pipelines |
-| [🐳 Docker](./08-docker/) | Images, containers and Compose |
-| [☸️ Kubernetes](./09-kubernetes/) | Pods, deployments, services, ingress and Helm |
-| [⚙️ Ansible](./10-ansible/) | Configuration management and automation |
-| [📈 Monitoring](./11-monitoring/) | Observability, metrics, logs and incident response |
-| [🛡️ DevSecOps](./12-devsecops/) | Security throughout the software delivery lifecycle |
-| [💰 FinOps](./13-finops/) | Cost visibility, optimization and governance |
-| [🚀 Projects](./14-projects/) | Hands-on projects and portfolio work |
-
-> **Portfolio principle:** learn the concept, build the lab, break it, troubleshoot it, automate it, document it.
-
 ---
 
-## 🎯 My DevOps Philosophy
+# 🎯 My DevOps Philosophy
 
 DevOps is not simply about learning tools.
 
-It is about changing **how infrastructure and applications are built, deployed, secured, monitored and improved**.
+It's about changing **how infrastructure and applications are built, deployed, secured, monitored and operated**.
+
+My approach:
 
 ```text
-PLAN → CODE → BUILD → TEST → SECURE → RELEASE → DEPLOY → MONITOR → IMPROVE ↺
+PLAN
+  ↓
+CODE
+  ↓
+BUILD
+  ↓
+TEST
+  ↓
+SECURE
+  ↓
+RELEASE
+  ↓
+DEPLOY
+  ↓
+MONITOR
+  ↓
+IMPROVE
+  ↺
 ```
 
-My goal is to make infrastructure:
+The goal is simple:
 
-- **Repeatable**
-- **Predictable**
-- **Secure**
-- **Observable**
-- **Automated**
-- **Recoverable**
-- **Cost-aware**
+**Make infrastructure repeatable.  
+Make deployments predictable.  
+Make operations measurable.  
+Make changes safer.  
+Automate wherever automation creates value.**
 
 ---
 
@@ -104,7 +101,7 @@ My goal is to make infrastructure:
 
 ```text
                          ┌──────────────────┐
-                         │      DEVOPS      │
+                         │     DEVOPS       │
                          └────────┬─────────┘
                                   │
           ┌───────────────────────┼────────────────────────┐
@@ -137,6 +134,9 @@ My goal is to make infrastructure:
                          └────────────┬────────────┘
                                       ▼
                                 OBSERVABILITY
+                                      │
+                                      ▼
+                              CONTINUOUS IMPROVEMENT
 ```
 
 ---
@@ -148,26 +148,30 @@ My primary cloud focus is **Microsoft Azure**.
 ### Azure Core
 
 - Azure Resource Groups
-- Regions & Availability Zones
+- Azure Regions
+- Availability Zones
 - Virtual Machines
 - Managed Disks
 - Storage Accounts
 - Blob Storage
 - Azure Files
 - Storage Tiers
-- Virtual Networks & Subnets
-- NSGs
+- Azure Tables
+- Azure Queues
+- Virtual Networks
+- Subnets
+- Network Security Groups
 - Public & Private IP
 - DNS
 - Load Balancer
 - Application Gateway
 - Azure Front Door
-- Traffic Manager
+- Azure Traffic Manager
 - Azure Bastion
 - VPN Gateway
 - IPsec VPN
 - VNet Peering
-- Private Endpoints
+- Hub & Spoke Architecture
 
 ### Azure Architecture
 
@@ -188,14 +192,14 @@ My primary cloud focus is **Microsoft Azure**.
                       │
                   Entra ID
                       │
-                RBAC / IAM
+                  RBAC / IAM
 ```
 
 ---
 
 # 🏗️ 02 — Azure Landing Zones & Governance
 
-Enterprise cloud needs more than individual resources. It needs **structure, governance, security and standards**.
+One of the important areas of my cloud journey is understanding how enterprise Azure environments should be designed rather than simply creating individual resources.
 
 ### Topics
 
@@ -205,14 +209,18 @@ Enterprise cloud needs more than individual resources. It needs **structure, gov
 - Resource Groups
 - Azure Policy
 - RBAC
+- Resource Organization
 - Naming Standards
 - Tagging
 - Governance
 - Security Baselines
 - Cost Management
+- Identity & Access Management
 - Network Architecture
 - Hub & Spoke
 - Enterprise-scale concepts
+
+### Enterprise Structure
 
 ```text
 Tenant
@@ -220,10 +228,12 @@ Tenant
   └── Management Groups
           │
           ├── Production
-          │      └── Subscriptions
+          │      ├── Subscription
+          │      └── Resources
           │
           ├── Non-Production
-          │      └── Subscriptions
+          │      ├── Subscription
+          │      └── Resources
           │
           └── Sandbox
                  └── Subscription
@@ -233,42 +243,70 @@ Tenant
 
 # 🔐 03 — Identity & Security
 
-Security should be part of the engineering lifecycle, not an afterthought.
+Security is not a separate phase of DevOps.
+
+It should be integrated throughout the lifecycle.
 
 ### Identity
 
 - Microsoft Entra ID
-- Users & Groups
+- Users
+- Groups
 - Service Principals
 - Managed Identities
 - RBAC
 - Least Privilege
-- Conditional Access concepts
-- Authentication & Authorization
+- Conditional Access
+- Authentication
+- Authorization
 
 ### Security
 
 - Network Security Groups
-- Key Vault
+- Azure Firewall concepts
+- Zero Trust
 - Secrets Management
-- Zero Trust concepts
+- Key Vault
 - Secure authentication
 - Identity governance
 - Infrastructure security
+
+### Security Mindset
+
+```text
+Developer
+    ↓
+Source Code
+    ↓
+Build
+    ↓
+Security Scan
+    ↓
+Infrastructure
+    ↓
+Deployment
+    ↓
+Runtime
+    ↓
+Monitoring
+```
 
 ---
 
 # 🐧 04 — Linux
 
-Linux is a core foundation for modern cloud and DevOps engineering.
+Linux is a fundamental part of my DevOps journey.
 
 ### Areas
 
+- Ubuntu
+- RHEL concepts
 - File system
 - Permissions
 - Users & Groups
 - Processes
-- Services / systemd
+- Services
+- Systemd
 - Networking
 - SSH
 - Package management
@@ -279,25 +317,50 @@ Linux is a core foundation for modern cloud and DevOps engineering.
 - Shell scripting
 - Troubleshooting
 
-### Commands
+### Essential Commands
 
 ```bash
-ls  cd  pwd  cp  mv  rm  mkdir  touch
-cat less grep find awk sed sort
-chmod chown ps top df du free
-ip ss curl wget ssh systemctl journalctl
+ls
+cd
+pwd
+cp
+mv
+rm
+mkdir
+touch
+cat
+less
+grep
+find
+awk
+sed
+sort
+chmod
+chown
+ps
+top
+df
+du
+free
+ip
+ss
+curl
+wget
+ssh
+systemctl
+journalctl
 ```
 
 ---
 
 # 🔀 05 — Git & GitHub
 
-Git is the foundation for collaborative software and infrastructure delivery.
+Git is the foundation of infrastructure and application collaboration.
 
-### Concepts
+### Git Concepts
 
 - Repository
-- Working tree
+- Working Tree
 - Staging
 - Commit
 - Branch
@@ -309,8 +372,9 @@ Git is the foundation for collaborative software and infrastructure delivery.
 - Clone
 - Fork
 - Conflict Resolution
+- Git workflows
 
-### Workflow
+### Typical Workflow
 
 ```text
 Local Changes
@@ -347,28 +411,32 @@ Terraform is one of the major focus areas of my DevOps journey.
 
 ### Core Concepts
 
-- Providers
+- Terraform Providers
 - Resources
 - Variables
 - Outputs
 - Locals
 - Data Sources
 - `.tfvars`
-- Dependencies
-- Expressions & Functions
+- Resource Dependencies
+- Expressions
+- Functions
 - `count`
 - `for_each`
-- Conditional expressions
-- Dynamic blocks
+- Conditional Expressions
+- Dynamic Blocks
 - Modules
 - State
 - Remote State
 - Backend
-- State locking
+- State Locking
 - Import
 - Workspaces
+- Terraform Plan
+- Terraform Apply
+- Terraform Destroy
 
-### Workflow
+### Terraform Workflow
 
 ```text
 Terraform Code
@@ -392,15 +460,6 @@ terraform apply
 Azure Infrastructure
 ```
 
-### Example
-
-```hcl
-resource "azurerm_resource_group" "example" {
-  name     = "rg-devops-demo"
-  location = "Central India"
-}
-```
-
 ### Remote State
 
 ```text
@@ -420,34 +479,11 @@ Azure Storage Account
 
 ---
 
-# 📦 07 — Terraform Modules
+# 🔁 07 — CI/CD
 
-Reusable modules make infrastructure easier to maintain and scale.
+The next step is connecting infrastructure and application code to automated pipelines.
 
-```text
-Terraform Root Module
-        │
-        ├── Network Module
-        │      ├── VNet
-        │      └── Subnets
-        │
-        ├── Compute Module
-        │      └── Virtual Machines
-        │
-        ├── Storage Module
-        │      └── Storage Accounts
-        │
-        └── Security Module
-               └── NSG / RBAC
-```
-
-**Write once → Reuse many times.**
-
----
-
-# 🔁 08 — CI/CD
-
-## Continuous Integration
+### CI — Continuous Integration
 
 ```text
 Developer
@@ -463,7 +499,7 @@ Security Scan
 Artifact
 ```
 
-## Continuous Delivery / Deployment
+### CD — Continuous Delivery / Deployment
 
 ```text
 Artifact
@@ -477,7 +513,7 @@ UAT
 Production
 ```
 
-### Pipeline principles
+### Pipeline Principles
 
 - Automated builds
 - Automated testing
@@ -492,9 +528,9 @@ Production
 
 ---
 
-# 🔵 09 — Azure DevOps
+# 🔵 08 — Azure DevOps
 
-### Areas
+Areas to explore and implement:
 
 - Azure Repos
 - Azure Pipelines
@@ -542,9 +578,13 @@ Azure
 
 ---
 
-# 🐳 10 — Containers
+# 🐳 09 — Containers
 
-### Docker topics
+Containerization is a key step toward modern application delivery.
+
+### Docker
+
+Topics:
 
 - Images
 - Containers
@@ -556,6 +596,8 @@ Azure
 - Registries
 - Docker Compose
 - Container Security
+
+### Container Lifecycle
 
 ```text
 Dockerfile
@@ -575,9 +617,11 @@ Application
 
 ---
 
-# ☸️ 11 — Kubernetes
+# ☸️ 10 — Kubernetes
 
-### Topics
+The next layer of the container journey.
+
+### Kubernetes Concepts
 
 - Cluster
 - Node
@@ -595,10 +639,10 @@ Application
 - DaemonSet
 - Jobs
 - CronJobs
-- HPA
+- Horizontal Pod Autoscaler
 - Helm
 
-### Architecture
+### Kubernetes Architecture
 
 ```text
                  Kubernetes Cluster
@@ -609,16 +653,16 @@ Application
               │                   │
       ┌───────┼───────┐      ┌────┴────┐
       │       │       │      │         │
-     API   Scheduler  etcd   Pod       Pod
+     API   Scheduler  etcd   Pod      Pod
      Server                    │
                               Container
 ```
 
 ---
 
-# ⚙️ 12 — Configuration Management
+# ⚙️ 11 — Configuration Management
 
-Automation should continue beyond infrastructure provisioning.
+Automation should not stop at infrastructure creation.
 
 ### Tools
 
@@ -626,6 +670,8 @@ Automation should continue beyond infrastructure provisioning.
 - PowerShell
 - Bash
 - Azure CLI
+
+### Automation Flow
 
 ```text
 Infrastructure
@@ -643,37 +689,7 @@ Monitor
 
 ---
 
-# 🐚 13 — Scripting & Automation
-
-### Technologies
-
-- Bash
-- PowerShell
-- Python
-- Azure CLI
-- REST APIs
-
-### Automation mindset
-
-```text
-Manual Task
-     ↓
-Identify Repetition
-     ↓
-Create Script
-     ↓
-Test
-     ↓
-Schedule / Pipeline
-     ↓
-Monitor
-     ↓
-Improve
-```
-
----
-
-# 📊 14 — Monitoring & Observability
+# 📊 12 — Monitoring & Observability
 
 Infrastructure that cannot be observed cannot be effectively operated.
 
@@ -685,6 +701,7 @@ Infrastructure that cannot be observed cannot be effectively operated.
 - Alerts
 - Activity Logs
 - Application Insights
+- Infrastructure Monitoring
 - Network Monitoring
 
 ### Observability
@@ -702,16 +719,23 @@ Infrastructure that cannot be observed cannot be effectively operated.
                      │
                   Alerts
                      │
-                   Action
+                  Action
 ```
 
 ---
 
-# 🛡️ 15 — DevSecOps
+# 🛡️ 13 — DevSecOps
 
-Security should move left and remain active throughout delivery.
+Security should move left.
 
 ```text
+Traditional
+
+Code → Build → Deploy → Security
+
+
+DevSecOps
+
 Security
    ↓
 Plan → Code → Build → Test → Release → Deploy → Monitor
@@ -735,22 +759,24 @@ Plan → Code → Build → Test → Release → Deploy → Monitor
 
 ---
 
-# 💰 16 — FinOps & Cloud Cost Optimization
+# 💰 14 — FinOps & Cloud Cost Optimization
 
-Cloud engineering also needs financial discipline.
+Cloud engineering is not only about making infrastructure work.
+
+It also needs to be financially sustainable.
 
 ### Areas
 
 - Azure Cost Management
 - Resource Tagging
 - Right-sizing
-- Reserved capacity concepts
+- Reserved Capacity
 - Autoscaling
-- Storage optimization
-- Idle resource detection
-- Environment scheduling
-- Budget alerts
-- Cost allocation
+- Storage Optimization
+- Idle Resource Identification
+- Environment Scheduling
+- Budget Alerts
+- Cost Allocation
 
 ```text
 Cloud Usage
@@ -769,9 +795,11 @@ Measure
 
 ---
 
-# 🌐 17 — Networking for DevOps
+# 🌐 15 — Networking for DevOps
 
-### Core networking
+A strong networking foundation is essential for cloud and DevOps.
+
+### Topics
 
 ```text
 OSI Model
@@ -787,13 +815,13 @@ Ports
 Firewalls
 VPN
 TLS
-HTTP / HTTPS
+HTTP/HTTPS
 Load Balancing
 Reverse Proxy
 Private Endpoints
 ```
 
-### Azure networking
+### Azure Networking
 
 ```text
 Azure
@@ -812,9 +840,9 @@ Azure
 
 ---
 
-# 🔄 18 — Disaster Recovery & Resilience
+# 🔄 16 — Disaster Recovery & Resilience
 
-Infrastructure reliability is a major part of my existing operations background and a natural bridge into DevOps and SRE practices.
+My infrastructure background also connects strongly with DevOps reliability practices.
 
 ### Topics
 
@@ -824,10 +852,14 @@ Infrastructure reliability is a major part of my existing operations background 
 - RTO
 - High Availability
 - Availability Zones
+- Azure Site Recovery concepts
+- Azure Backup
 - Failover
 - Business Continuity
 - DR Testing
-- Recovery automation
+- Infrastructure Recovery Automation
+
+### Resilience Mindset
 
 ```text
 Prevent
@@ -845,9 +877,11 @@ Improve
 
 ---
 
-# 🧪 19 — Infrastructure Testing
+# 🧪 17 — Testing Infrastructure
 
 Infrastructure code should be treated like application code.
+
+### Validation
 
 ```text
 Terraform Format
@@ -867,9 +901,44 @@ Post Deployment Validation
 
 ---
 
-# 🔑 20 — Secrets & Configuration Management
+# 🌍 18 — Environment Strategy
 
-Never hard-code credentials or secrets.
+A mature DevOps environment should separate workloads and changes.
+
+```text
+                    Git
+                     │
+                     ▼
+              ┌─────────────┐
+              │ Development │
+              └──────┬──────┘
+                     │
+                     ▼
+                 Testing
+                     │
+                     ▼
+                    UAT
+                     │
+                     ▼
+               Production
+```
+
+Infrastructure should be **consistent across environments while allowing environment-specific configuration**.
+
+---
+
+# 🔑 19 — Secrets & Configuration Management
+
+Never hard-code secrets.
+
+❌ Bad:
+
+```text
+username = "admin"
+password = "MyPassword123"
+```
+
+✅ Better:
 
 ```text
 Application
@@ -884,7 +953,7 @@ Managed Identity
 Secret
 ```
 
-### Areas
+Areas:
 
 - Azure Key Vault
 - Managed Identity
@@ -896,31 +965,7 @@ Secret
 
 ---
 
-# 🌍 21 — Environment Strategy
-
-A mature delivery platform separates change by environment while keeping deployment patterns consistent.
-
-```text
-                    Git
-                     │
-                     ▼
-              ┌─────────────┐
-              │ Development │
-              └──────┬──────┘
-                     │
-                     ▼
-                  Testing
-                     │
-                     ▼
-                    UAT
-                     │
-                     ▼
-                Production
-```
-
----
-
-# 📚 22 — DevOps Technology Landscape
+# 📚 20 — DevOps Tools Landscape
 
 | Area | Technologies |
 |---|---|
@@ -934,21 +979,26 @@ A mature delivery platform separates change by environment while keeping deploym
 | Orchestration | Kubernetes |
 | Scripting | PowerShell, Bash, Python |
 | Identity | Microsoft Entra ID |
-| Security | RBAC, Key Vault, Azure security services |
-| Networking | VNet, NSG, VPN, Load Balancer, Application Gateway |
+| Security | Azure Security, RBAC, Key Vault |
+| Networking | Azure VNet, NSG, VPN, Firewall |
 | Monitoring | Azure Monitor, Log Analytics |
+| Artifacts | Azure Artifacts, Container Registries |
+| Collaboration | Azure Boards, GitHub |
+| Automation | Azure CLI, PowerShell, Terraform |
 | Governance | Azure Policy, Management Groups |
 | Cost | Azure Cost Management |
 
 ---
 
-# 🧰 23 — My DevOps Lab
+# 🧰 21 — My DevOps Lab Environment
 
-This repository is my hands-on engineering laboratory.
+This repository is my hands-on laboratory.
 
-I believe in:
+Instead of only reading documentation, I believe in:
 
 > **Learn → Build → Break → Troubleshoot → Automate → Document**
+
+Example lab lifecycle:
 
 ```text
 Learn Concept
@@ -970,7 +1020,7 @@ Repeat
 
 ---
 
-# 📂 Repository Structure
+# 📂 22 — Repository Structure
 
 ```text
 devops-journey/
@@ -992,34 +1042,63 @@ devops-journey/
 └── README.md
 ```
 
-Each folder is intended to contain:
+---
 
-- A focused `README.md`
-- Source/configuration files
-- Architecture diagrams where useful
-- Screenshots for labs
-- Troubleshooting notes
-- Lessons learned
+# 🚀 23 — Featured Projects
+
+The repository will progressively contain hands-on projects rather than only theoretical notes.
+
+### 🏗️ Azure Infrastructure with Terraform
+
+Provision Azure infrastructure using Infrastructure as Code.
+
+**Focus:** `Terraform → Azure → Networking → Compute → Storage → RBAC`
+
+### ☁️ Azure Landing Zone
+
+Design an enterprise-oriented Azure foundation.
+
+**Focus:** `Management Groups → Subscriptions → Governance → Policy → RBAC → Networking`
+
+### 🔐 Secure Azure Infrastructure
+
+Build infrastructure following least-privilege and security principles.
+
+**Focus:** `Entra ID → RBAC → Managed Identity → Key Vault → NSG → Private Access`
+
+### 🔄 Terraform CI/CD Pipeline
+
+Automate infrastructure deployment through CI/CD.
+
+```text
+GitHub
+   ↓
+Pull Request
+   ↓
+Validation
+   ↓
+Terraform Plan
+   ↓
+Review
+   ↓
+Approval
+   ↓
+Terraform Apply
+   ↓
+Azure
+```
+
+### 🐳 Containerized Application
+
+Package an application into a Docker container and deploy it through a CI/CD pipeline.
+
+### ☸️ Kubernetes Deployment
+
+Deploy and manage containerized workloads using Kubernetes.
 
 ---
 
-# 🚀 24 — Featured Projects
-
-| Project | Focus |
-|---|---|
-| Azure Infrastructure with Terraform | IaC, Azure, networking, compute, storage |
-| Azure Landing Zone | Governance, subscriptions, policy, RBAC, architecture |
-| Secure Azure Infrastructure | Entra ID, RBAC, Managed Identity, Key Vault |
-| Terraform CI/CD | Git, validation, plan, approvals, apply |
-| Containerized Application | Docker, image build, registry, deployment |
-| Kubernetes Deployment | Pods, services, deployments, ingress, Helm |
-| Monitoring & Observability Lab | Metrics, logs, alerts, dashboards |
-| DevSecOps Pipeline | SAST, secrets, IaC and container security |
-| Cloud Cost Optimization | Right-sizing, tagging, budgets, automation |
-
----
-
-# 📈 25 — DevOps Roadmap
+# 📈 24 — DevOps Roadmap
 
 ### ✅ Foundation
 
@@ -1032,10 +1111,10 @@ Each folder is intended to contain:
 - [x] Git Fundamentals
 - [x] Linux Fundamentals
 
-### 🔄 In Progress
+### 🔄 Current Focus
 
 - [x] Azure CLI
-- [x] Azure Virtual Machines
+- [x] Azure VMs
 - [x] Azure Networking
 - [x] Azure Storage
 - [x] Entra ID
@@ -1080,9 +1159,9 @@ Each folder is intended to contain:
 
 ---
 
-# 🧠 26 — What I Am Building
+# 🧠 25 — What I Am Building
 
-My objective is not to collect technologies for the sake of a checklist.
+My objective is not to collect certifications or memorize commands.
 
 I want to build systems where:
 
@@ -1108,19 +1187,19 @@ Continuous Delivery
 
 ---
 
-# 💡 27 — Lessons From the Journey
+# 💡 26 — Lessons From the Journey
 
-### 01 — Automation removes repetitive work
+### 01 — Automation is not about replacing people
 
-Use automation to reduce manual effort and free engineers for higher-value work.
+It's about removing repetitive work so engineers can focus on higher-value problems.
 
 ### 02 — Infrastructure should be reproducible
 
-If rebuilding an environment requires dozens of manual steps, there is an opportunity for IaC.
+If rebuilding an environment requires dozens of manual steps, there is an opportunity for automation.
 
 ### 03 — Security belongs everywhere
 
-Security should not be added only after deployment.
+Security should not be added at the end of a deployment.
 
 ### 04 — Monitoring is not enough
 
@@ -1132,11 +1211,15 @@ Poor architecture can make cloud more expensive than traditional infrastructure.
 
 ### 06 — DevOps is a culture as much as a technology
 
-Tools enable DevOps. People, process and collaboration make it successful.
+Tools enable DevOps.
+
+People, processes and collaboration make it successful.
 
 ---
 
-# 🏆 28 — The Bigger Picture
+# 🏆 27 — The Bigger Picture
+
+My DevOps journey connects my existing infrastructure experience with modern cloud engineering:
 
 ```text
 20 Years
@@ -1146,19 +1229,19 @@ Infrastructure & Operations
      Cloud Computing
           │
           ▼
-         Azure
+       Azure
           │
           ▼
  Infrastructure as Code
           │
           ▼
-       Terraform
+      Terraform
           │
           ▼
        Automation
           │
           ▼
-         CI/CD
+        CI/CD
           │
           ▼
       Containers
@@ -1178,7 +1261,7 @@ Platform / Cloud Engineering
 
 ---
 
-# 📌 29 — My DevOps Principles
+# 📌 28 — My DevOps Principles
 
 ```text
 Infrastructure as Code
@@ -1206,7 +1289,7 @@ Continuous Improvement
 
 # 🤝 Let's Connect
 
-I'm documenting this journey through:
+I'm documenting this journey publicly through:
 
 🔹 Hands-on Azure labs  
 🔹 Terraform projects  
@@ -1216,18 +1299,22 @@ I'm documenting this journey through:
 🔹 Linux & scripting  
 🔹 DevSecOps concepts  
 🔹 Troubleshooting notes  
-🔹 Real-world infrastructure scenarios
+🔹 Real-world infrastructure scenarios  
 
-If you are also learning **Cloud, DevOps, Terraform, Azure or Infrastructure Automation**, feel free to explore the repositories and connect.
+If you're also learning **Cloud, DevOps, Terraform, Azure or Infrastructure Automation**, feel free to explore the repositories and connect.
 
 ---
 
 <p align="center">
-  <b>🚀 Build. Automate. Secure. Observe. Improve.</b>
-  <br />
-  Infrastructure → Cloud → IaC → Automation → DevOps
+
+### 🚀 Build. Automate. Secure. Observe. Improve.
+
+**Infrastructure → Cloud → IaC → Automation → DevOps**
+
 </p>
 
 <p align="center">
-  ⭐ If you find something useful, consider starring the repository.
+
+⭐ If you find something useful, consider starring the repository.
+
 </p>
