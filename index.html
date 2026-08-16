@@ -770,6 +770,40 @@ footer strong{color:#fff;font-size:18px}
   }
 }
 
+
+
+/* === MOBILE ANIMATION FIX ===
+   The final 3x3 grid intentionally disabled animation on its children to
+   prevent text blur. Re-enable only compositor-safe glow/opacity animations
+   on mobile; no transforms are applied to text-containing cards. */
+@media(max-width:600px){
+  .devops-grid .core{
+    animation:mobileCoreGlow 3.8s ease-in-out infinite!important;
+    transform:none!important;
+    will-change:box-shadow;
+  }
+  .devops-grid .node{
+    animation:mobileNodeGlow 4s ease-in-out infinite!important;
+    transform:none!important;
+    will-change:box-shadow;
+  }
+  .devops-grid .azure{animation-delay:.25s!important}
+  .devops-grid .terraform{animation-delay:.5s!important}
+  .devops-grid .docker{animation-delay:.75s!important}
+  .devops-grid .kubernetes{animation-delay:1s!important}
+  .devops-grid .git{animation-delay:1.25s!important}
+  .devops-grid .monitor{animation-delay:1.5s!important}
+  .devops-grid .devsecops{animation-delay:1.75s!important}
+  .flow-dot{will-change:transform,opacity}
+}
+@keyframes mobileCoreGlow{
+  0%,100%{box-shadow:0 0 30px rgba(61,207,255,.48),0 0 70px rgba(110,98,255,.10),inset 0 0 30px rgba(255,255,255,.10)}
+  50%{box-shadow:0 0 48px rgba(61,207,255,.72),0 0 105px rgba(110,98,255,.18),inset 0 0 38px rgba(255,255,255,.15)}
+}
+@keyframes mobileNodeGlow{
+  0%,100%{box-shadow:0 12px 26px rgba(0,0,0,.26),0 0 0 rgba(53,169,255,0)}
+  50%{box-shadow:0 12px 30px rgba(0,0,0,.30),0 0 18px rgba(53,169,255,.20)}
+}
 </style>
 </head>
 
